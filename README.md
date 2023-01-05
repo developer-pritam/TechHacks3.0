@@ -7,7 +7,7 @@ Enter text to get a image and then generate NFTs
 of that image.
 
 - Website link 👉 https://ai-nft-minter.web.app/
-- PPT Link 👉 To be added
+- PPT Link 👉 https://drive.google.com/file/d/1jjuuahOr4qpcu_AwvSxA7rRnV7j2PWXB/view
 
 # Team - Open Source
 ## Team Member
