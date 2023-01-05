@@ -32,7 +32,7 @@ git clone https://github.com/developer-pritam/TechHacks3.0.git
 ### Front End
 
 ```
-cd Client
+cd client
 npm i
 npm run dev
 ```
