@@ -1,5 +1,5 @@
 
-# Tech Hacks 3.0 
+# She Builds
 
 ## AI NFT GENERATOR
 Generate NFTs just with few clicks
@@ -13,8 +13,7 @@ of that image.
 ## Team Member
 - Pritam Kumar
 - Srishti Kumar
-- Muskan Rani
-- Sadhvi
+
 ## Tech Stack
 
 **Client:** React, Vite, TailwindCSS
