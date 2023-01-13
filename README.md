@@ -1,5 +1,5 @@
 
-# She Builds
+# Tech Hacks 3.0
 
 ## AI NFT GENERATOR
 Generate NFTs just with few clicks
@@ -7,12 +7,14 @@ Enter text to get a image and then generate NFTs
 of that image.
 
 - Website link 👉 https://ai-nft-minter.web.app/
-- PPT Link 👉 https://drive.google.com/file/d/1zascecH_D664jwbvSphMg3W2Gxcgyr7-/view?usp=drivesdk
+- PPT Link 👉 https://drive.google.com/file/d/1jjuuahOr4qpcu_AwvSxA7rRnV7j2PWXB/view
 
 # Team - Open Source
 ## Team Member
 - Pritam Kumar
 - Srishti Kumar
+- Muskan Rani
+- Sadhvi
 
 ## Tech Stack
 
