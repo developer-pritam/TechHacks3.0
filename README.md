@@ -1,5 +1,5 @@
 
-# She Builds
+# Tech Hacks 3.0
 
 ## AI NFT GENERATOR
 Generate NFTs just with few clicks
