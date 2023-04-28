@@ -13,7 +13,6 @@ of that image.
 ## Team Member
 - Pritam Kumar
 - Srishti Kumar
-- Muskan Rani
 - Sadhvi
 
 ## Tech Stack
