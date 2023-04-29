@@ -1,10 +1,10 @@
 import express from "express";
 import GenerateImage from "./controller/generate-image.js";
-import MintNft from "./controller/mint-nft.js";
-import TransferNft from "./controller/transfer-nft.js";
-import UploadImageController from "./controller/upload-image.js";
-import getnftData from "./controller/getnft-data.js";
-import airdropController from "./controller/airdrop-controller.js";
+// import MintNft from "./controller/mint-nft.js";
+// import TransferNft from "./controller/transfer-nft.js";
+import UploadImageController from "./controller/upload-image-controller.js";
+// import getnftData from "./controller/getnft-data.js";
+// import airdropController from "./controller/airdrop-controller.js";
 import uploadImage from "./controller/upload-image.js";
 // import cors from "./cors.js";
 const routes = express.Router();
@@ -29,10 +29,10 @@ const corsOptionsDelegate = function (req, callback) {
 routes.use(cors(corsOptionsDelegate));
 
 routes.post("/getImageUrl", GenerateImage.getImageUri);
-routes.post("/mintNFT", MintNft.mintNFT);
-routes.post("/transferNFT", TransferNft.transferNFT);
-routes.post("/uploadImage", UploadImageController.uploadImage);
-routes.post("/getNFTs", getnftData.getNFTData);
-routes.post("/getAirdrop", airdropController.getAirdrop);
+// routes.post("/mintNFT", MintNft.mintNFT);
+// routes.post("/transferNFT", TransferNft.transferNFT);
+routes.post("/uploadImageDirectly", UploadImageController.uploadImage);
+// routes.post("/getNFTs", getnftData.getNFTData);
+// routes.post("/getAirdrop", airdropController.getAirdrop);
 routes.post("/uploadImage", uploadImage.uploadImage)
 export default routes;
