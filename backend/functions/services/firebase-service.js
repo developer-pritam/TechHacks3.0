@@ -37,5 +37,21 @@ class FirebaseService {
       });
     });
   }
+
+  async uploadImageFromStorage(filename) {
+    return new Promise(async (resolve, reject) => {
+      const uuid = uuidv4();
+      // const filename = `${tempDir}/${uuid}.png`;
+      bucket.file(`${uuid}.png`);
+      bucket.upload(filename, function (err, file, apiResponse) {
+        if (err) reject(err);
+        file.makePublic(function (err, apiResponse) {
+          if (err) reject(err);
+          console.log(file.publicUrl());
+          resolve(file.publicUrl());
+        });
+      });
+    });
+  }
 }
 export default new FirebaseService();

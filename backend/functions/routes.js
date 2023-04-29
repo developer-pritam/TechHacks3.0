@@ -5,6 +5,7 @@ import TransferNft from "./controller/transfer-nft.js";
 import UploadImageController from "./controller/upload-image.js";
 import getnftData from "./controller/getnft-data.js";
 import airdropController from "./controller/airdrop-controller.js";
+import uploadImage from "./controller/upload-image.js";
 // import cors from "./cors.js";
 const routes = express.Router();
 // routes.use(cors);
@@ -33,4 +34,5 @@ routes.post("/transferNFT", TransferNft.transferNFT);
 routes.post("/uploadImage", UploadImageController.uploadImage);
 routes.post("/getNFTs", getnftData.getNFTData);
 routes.post("/getAirdrop", airdropController.getAirdrop);
+routes.post("/uploadImage", uploadImage.uploadImage)
 export default routes;
